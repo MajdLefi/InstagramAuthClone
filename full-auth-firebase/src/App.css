@@ -1,0 +1,54 @@
+* {
+  background-color: #fafafa;
+}
+
+.App {
+  display: flex;
+}
+
+.phone-login-home {
+}
+
+.imgPhone {
+  position: relative;
+  width: 455px;
+  margin-top: 110px;
+  margin-left: 550px;
+  /* z-index: 1; */
+  background-size: 454px 618px;
+}
+
+.img1 {
+  width: 241px;
+  height: 430px;
+  position: absolute;
+  z-index: 2;
+  top: 186.5px;
+  left: 708.5px;
+  transition: 5s;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration:10s ;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg");
+  }
+  25% {
+    background-image: url("https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg");
+  }
+  50% {
+    background-image: url("https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg");  
+  }
+  75% {
+    background-image: url("https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg");
+  }
+  100% {
+    background-image: url("https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg");
+  }
+}
